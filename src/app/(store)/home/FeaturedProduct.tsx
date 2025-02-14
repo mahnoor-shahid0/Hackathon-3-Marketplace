@@ -50,7 +50,7 @@ const FeaturedProducts = () => {
             <Link href={`/product-page/${product.slug}`}>
               <Image
                 className='hover:scale-105 overflow-hidden relative object-cover'
-                src={product.imageUrl || '/placeholder.png'}
+                src={product.imageUrl}
                 alt={product.name}
                 width={250}
                 height={250}

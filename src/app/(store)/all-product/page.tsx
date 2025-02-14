@@ -94,7 +94,7 @@ const ProductPage = () => {
                 <Link href={`/product-page/${product.slug}`}>
                 <Image
                   className="rounded-sm hover:scale-105 overflow-hidden relative object-cover duration-200"
-                  src={product.imageUrl || "/placeholder.png"}
+                  src={product.imageUrl}
                   alt={product.name}
                   width={250}
                   height={250}
